@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import { auth } from '@clerk/nextjs/server'
 import { isAdmin } from '@/lib/admin-utils'
 import { db } from '@/lib/db'
-import { Prisma } from '../../../../../prisma/generated/client'
+import { Prisma } from '../../../../../prisma/generated/client2'
 import { withApiLogging } from '@/lib/logging/api'
 
 interface PlanFeature {
